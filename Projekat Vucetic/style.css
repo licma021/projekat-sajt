@@ -31,7 +31,7 @@ nav{
 
 }
 .wrapper{
-   margin: 0; 
+   margin: 0 auto; 
 width: 1000px;
 background-color: white;
 }
@@ -40,8 +40,16 @@ body{
 }
 #logo{
       float: left;
-    width: 1000px;
+    width: 100px;
     height: 100px;
     margin-right: 20px;
     margin-bottom: 15px;
+}
+p
+{
+    text-align: justify;
+    font-size: 18px;
+}
+header p::first-letter{
+    font-size: 40px;
 }
